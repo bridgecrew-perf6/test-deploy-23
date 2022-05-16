@@ -1,0 +1,22 @@
+.slick-prev, .slick-next {
+  
+  border-radius: 50%;
+}
+.content_news {
+  /* background: rebeccapurple!important; */
+  width: 90%!important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: 3%!important;
+  margin-right: 3%!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.content_news img {
+  height: 150px;
+  width: 100%;
+}
+.content_news:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.container {
+width: 100%;
+/* background-color: rosybrown; */
+height: auto;
+}
+.container .title h1{
+    margin-left: 10%;
+     font-family: 'Noto Sans JP', sans-serif;
+}
+.card_product {
+    min-height: 400px;
+}
+.left{
+    float: left;
+    width: 30%;
+    height: 400px;
+    outline:1px solid;
+    margin-left: 10%;
+}
+
+.right{
+    margin-left: 1%;
+    float: left;
+    width: 59%;
+    height: 400px;
+    outline:1px solid;
+}
+.list_Xperience {
+    margin-left: 15%;
+    margin-right: 5%;
+    height: 150px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.promotion_Xperience {
+    margin-left: 15%;
+    margin-right: 5%;
+    height: 250px;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+.location {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    /* height: 300px; */
+    font-family: 'Noto Sans JP', sans-serif;
+}

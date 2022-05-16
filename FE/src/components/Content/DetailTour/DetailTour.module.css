@@ -1,0 +1,104 @@
+.container {
+  width: 960px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.hinhanh{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 25%);
+  border-radius: 14px;
+padding: 16px;
+}
+.title{
+  font-size: 24px;
+  margin: 0;
+}
+.diemden{
+  margin: 16px 0;
+  font-size: 12px;
+  color: rgba(104, 113, 118, 1);
+}
+.diemden img {
+  width: 12px;
+  margin-right: 5px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anh img{
+  height: 512px;
+  border-radius: 8px;
+  width: 768px;
+}
+.anhnho{
+  text-align: right;
+}
+.anhnho img {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  height: 122px;
+  width: 148px;
+}
+.danhgia h2 { 
+  color: rgba(3,18,26,1.00);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.danhgia p{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.danhgias {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: rgba(2, 100, 200, 1);
+}
+.danhgias img {
+  width: 24px;
+  margin-right: 5px;
+}
+.timtour{
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.timtour button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(255, 94, 31);
+  border-style: none;
+  border-radius: 8px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
+.timtour button:hover {
+  background-color: rgb(223, 68, 15);
+}
+.timtour h1 {
+  color: rgb(255, 94, 31);
+  font-size: 26px;
+  padding-top: 0px;
+  padding-left: 0px;
+  margin: 5px 0;
+}
+.timtour p{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.footer img{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+.footer p{
+  margin: 5px 0;
+  font-weight: 700;
+}

@@ -1,0 +1,99 @@
+.container{
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.container h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+.noidung{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 249, 250);
+    padding: 10px;
+}
+.thongbao{     
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.thongbao img{
+
+    width: 20px;
+    margin-right: 10px;
+}
+.gia{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 94, 31);
+    display: flex;
+    align-items: flex-end;
+}
+
+.btnchon {
+   /* padding: 15px 20px; */
+    background-color: rgb(255, 94, 31);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    width: 97px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* hiệu ứng */
+.btnchon:hover{
+        background-color: rgb(223, 68, 15);
+}
+.btnhuy{
+    background-color: #d1ecf9;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d9ff5;
+    width: 97px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btnhuy:hover{
+    background-color: #f7f9fa;
+}
+.content{
+    display: flex;
+}
+.item{
+    width: 245px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding: 0 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.datve{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(255, 94, 31);
+font-size: 16px;
+color: white;
+font-weight: 700;
+cursor: pointer;
+}
+.datve:hover{
+    
+    background-color: rgb(223, 68, 15);
+  
+}

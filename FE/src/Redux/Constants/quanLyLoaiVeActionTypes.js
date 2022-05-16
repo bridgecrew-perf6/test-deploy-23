@@ -1,0 +1,1 @@
+export const SET_TICKET_TYPES = 'SET_TICKET_TYPES';

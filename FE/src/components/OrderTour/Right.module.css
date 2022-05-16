@@ -1,0 +1,110 @@
+.order {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .right {
+    margin-left: 60%;
+    box-shadow: 0px 1px 2px 3px rgba(206, 204, 204, 0.457);
+    width: 15%;
+    border-radius: 6px;
+    background-color: white;
+  }
+  
+  .tomtat {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: smaller;
+    font-weight: 700;
+  }
+  .tomtat img{
+      position: relative;
+      padding: 5px;
+      top: 10px;
+     
+  }
+  
+  .hinhanh {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 150px;
+  }
+  .hinhanh h2{
+      padding-top: 10px;
+      font-size: smaller;
+      font-weight: 100;
+  }
+  .hinhanh p {
+    position: relative;
+    bottom: 10px;
+    font-size: xx-small;
+  
+    width: 50%;
+    height: 50px;
+    float: right;
+  }
+  .hinhanh a {
+    color: rgb(1, 148, 243);
+    position: relative;
+    bottom: 10px;
+    float: right;
+    font-size: smaller;
+    font-weight: 500;
+    text-decoration: none;
+    
+  }
+  .hinhanh img {
+    float: left;
+    width: 40%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  
+  .thoigian {
+    background-color: rgb(233, 232, 231);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: xx-small;
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+  .khung {
+    width: 100%;
+    width: 45%;
+    float: left;
+    color: rgb(104, 113, 118);
+    font-weight: 700;
+    
+  }
+  
+  .solieu {
+    float: right;
+    margin-left: 20px;
+    color: rgb(3, 18, 26);
+    
+    width: 45%;
+  
+    text-align: right;
+  }
+  
+  .tinhnang{
+      font-size: x-small;
+      padding: 15px;
+  }
+  
+  .tinhnang img{
+      width: 15px;
+      margin-right: 10px;
+      
+    
+  }
+  
+  
+  
+  .hang2{
+      margin-top: 10px;
+      color: green;
+      font-weight: 700;
+  }

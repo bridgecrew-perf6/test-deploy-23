@@ -1,0 +1,68 @@
+/* General styles */
+.clearfix::after,
+.clearfix::before {
+  clear: both;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Private styles */
+.wrapper {
+  width: 85%;
+  background-color: rgb(242, 247, 247);
+  position: relative;
+  float: right;
+  overflow-y: scroll;
+  height: 1000px;
+  padding: 0px 80px;
+}
+
+.content {
+  padding-top: 18px;
+}
+
+.content__header {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.content__new {
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content__new__content {
+  padding-left: 12px;
+}
+
+.form-group {
+  padding-bottom: 14px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.form-label {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.error-message{
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

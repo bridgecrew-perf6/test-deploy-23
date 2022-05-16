@@ -1,0 +1,23 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#location-page {
+  top: calc(53% + 5px + 40px)!important;
+}
+#location span{
+  font-size: 10px;
+  color: #a19b9b;
+}
+.page-location {
+  margin-left: 15%;
+  margin-right: 5%;
+  height: 300px!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#location {
+  margin-left: 15%;
+  margin-right: 5%;
+  height: 250px!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}

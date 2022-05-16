@@ -1,0 +1,236 @@
+.left {
+  width: 35%;
+  float: left;
+  margin-left: 23%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left h2 {
+  padding-top: 20px;
+  font-size: medium;
+}
+
+.login {
+  box-shadow: 0px 1px 1px 2px rgba(206, 204, 204, 0.457);
+  border-radius: 6px;
+  padding: 10px;
+  background-color: white;
+}
+.login img {
+  float: left;
+  padding: 30px 10px 10px 10px;
+}
+
+.login h2 {
+  font-size: smaller;
+}
+.login h1 {
+  font-size: small;
+  color: rgb(1, 148, 243);
+}
+
+.note {
+  font-size: x-small;
+}
+
+.note p {
+  opacity: 0.7;
+}
+.note img {
+  opacity: 1;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+.thongtin {
+  box-shadow: 0px 1px 1px 2px rgba(206, 204, 204, 0.457);
+  border-radius: 6px;
+  background-color: white;
+}
+.fillform {
+  padding: 5px 15px 25px 15px;
+  background-color: white;
+}
+.fillform label {
+  font-size: x-small;
+  font-weight: 700;
+}
+
+.tieude {
+  display: flex;
+}
+
+.tieude h1 {
+  font-size: smaller;
+  width: 60%;
+}
+.luu {
+  font-weight: 700;
+  padding-top: 10px;
+  margin-left: 32%;
+  color: rgb(1, 148, 243);
+}
+
+.fillname input {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 0.1px;
+}
+.fillname p {
+  padding-top: 0px;
+  font-size: xx-small;
+  color: red;
+}
+.sdt {
+  display: flex;
+
+  width: 50%;
+}
+.sdt input {
+  height: 40px;
+  width: 60%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-width: 0.1px;
+}
+.vungmien {
+  width: 35%;
+  height: 40px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.email {
+  position: relative;
+  float: right;
+  bottom: 63px;
+  right: 80px;
+}
+.email input {
+  width: 136%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 0.1px;
+}
+.danhxungs {
+  padding: 10px 0px 15px 0px;
+}
+.danhxung {
+  height: 40px;
+  border-radius: 6px;
+  width: 30%;
+}
+
+.chon {
+  background-color: rgba(192, 184, 184, 0.288);
+  box-shadow: 0px 1px 2px 1px rgba(206, 204, 204, 0.457);
+  width: 100%;
+  margin-top: 35px;
+  height: 65px;
+  padding: 10px 5px 5px 5px;
+}
+.chon label {
+  position: relative;
+  bottom: 13px;
+  font-size: small;
+  font-weight: 100;
+  margin-left: 15px;
+}
+
+.chon input {
+  margin-left: 50px;
+  width: 20px;
+  height: 40px;
+}
+
+.fillother label {
+  font-size: smaller;
+}
+.fillother input {
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 70px;
+  width: 100%;
+  border-width: 0.1px;
+}
+
+.fillother p {
+  font-size: xx-small;
+  color: rgb(104, 113, 118);
+}
+
+.line{
+  position: relative;
+  bottom: 20px;
+  border-color: rgb(1 148 243);
+}
+.tongtien{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.tongtien span{
+  font-size: 20px;
+  color: rgb(255, 94, 31);
+  margin-left: 10px;
+}
+.dangnhap{
+  color: rgb(2, 100, 200);
+}
+.dangnhap img{
+  float: left;
+  margin-right: 10px; 
+  width: 20px;
+  height: 40px;
+}
+.dangnhap a{
+margin-left: 30px;
+  text-decoration: none;
+  color: rgb(1 148 243);;
+}
+
+.tieptuc{
+  width: 250px;
+  height: 40px;
+  background-color: orangered;
+  border-style: none;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  float:right;
+  margin-top: 30px;
+}
+
+/* hiệu ứng các element */
+
+.left input:hover {
+  border-color: black;
+}
+.left input:focus {
+  outline: none !important;
+  border: 2px solid rgb(1, 148, 243);
+}
+
+.left select:focus {
+  outline: none !important;
+  border: 2px solid rgb(1, 148, 243);
+}
+
+.login h1:hover {
+  color: rgb(2, 100, 200);
+}
+
+.luu:hover {
+  color: rgb(2, 100, 200);
+}
+.chitietnguoi{
+  display: flex;
+  justify-content: space-between;
+}
+
+.chitiettongtien p{
+margin: 5px 0;
+}

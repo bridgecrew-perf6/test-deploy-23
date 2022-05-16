@@ -1,0 +1,144 @@
+.container {
+  background-color: rgb(247, 249, 250);
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+  bottom: 5%;
+  left: 35.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 43%;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 3px 1px rgba(87, 87, 87, 0.457);
+}
+
+.locgia {
+  margin: 5px 5px;
+  width: 30%;
+  height: 40px;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid #acacac;
+  font-size: x-small;
+  font-weight: 700;
+}
+.locgia img {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 15px;
+  height: 20px;
+}
+.xeptheos {
+  width: 35%;
+  font-size: x-small;
+}
+.xeptheos p {
+  float: left;
+  margin-left: 25px;
+}
+.xeptheo {
+  float: right;
+  margin: 5px 5px;
+  width: 60%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  font-size: x-small;
+  border: 1px solid #acacac;
+  font-weight: 700;
+}
+
+.xeptheo img {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 15px;
+  height: 20px;
+}
+
+.danhsach {
+  width: 43%;
+  display: grid;
+
+  align-items: center;
+}
+.items {
+  height: 200px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 3px 1px rgba(87, 87, 87, 0.457);
+  margin-top: 20px;
+}
+.items img {
+  width: 30%;
+  height: 200px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  float: left;
+}
+
+.noidung {
+  position: relative;
+  top: 40px;
+  left: 10px;
+
+  width: 60%;
+  height: 150px;
+}
+
+.noidung h1 {
+  position: relative;
+  top: 40px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 94, 31);
+}
+.noidung h2 {
+  margin-left: 4px;
+  font-size: 16px;
+}
+.diemden {
+  margin-left: 4px;
+  font-size: 12px;
+  color: rgba(104, 113, 118, 1);
+}
+.diemden img {
+  position: relative;
+  bottom: 95px;
+  width: 12px;
+}
+
+.luu {
+  position: relative;
+  bottom: 160px;
+  width: 60px;
+  float: right;
+ 
+}
+.luu img{
+  position: relative;
+  bottom: 70px;
+  left: 10px;
+  width: 24px;
+}
+
+.tag {
+  margin: 7px;
+  width: auto;
+  background-color: rgb(219, 93, 93);
+  position: absolute;
+  border-radius: 8px;
+  color: white;
+  padding: 7px;
+  font-size: x-small;
+}

@@ -1,0 +1,30 @@
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  
+}
+.dropdown-list {
+  transform: scaleY(0);
+  visibility: hidden;
+  transition: all 0.3s ease-out;   
+  transform-origin: top center;
+  position: absolute;
+  top: 97%;
+  padding: 0;
+  line-height: 38px;
+  z-index: 99;
+}
+.dropdown:hover > .dropdown-list {
+  transform: scaleY(1);
+  visibility: visible;
+}

@@ -1,0 +1,152 @@
+.themtourpage {
+  width: 85%;
+  background-color: rgb(242, 247, 247);
+  position: relative;
+  float: right;
+  
+  height: 1000px;
+  padding: 0px 80px;
+}
+.form input{
+    border-width: 0.1px;
+}
+.form {
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+
+.hang1 {
+  display: flex;
+  padding: 10px 10px;
+}
+.tentour {
+  width: 40%;
+}
+.tentour input {
+  width: 60%;
+  height: 40px;
+  margin-left: 16%;
+  border-radius: 6px;
+}
+
+.loaitour {
+  width: 40%;
+}
+.loaitour input {
+  width: 30%;
+  text-align: center;
+  margin-left: 5%;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.giatour {
+  width: 20%;
+}
+.giatour input {
+  width: 50%;
+  margin-left: 5%;
+  height: 40px;
+  border-radius: 6px;
+}
+.hang2 {
+  padding: 10px 10px;
+}
+
+.gioithieu {
+  width: 100%;
+}
+.gioithieu input {
+  width: 84.5%;
+  margin-left: 5.7%;
+  height: 40px;
+  border-radius: 6px;
+}
+.noidung {
+  margin-top: 20px;
+  width: 100%;
+}
+.noidung input {
+  width: 84.5%;
+  margin-left: 6%;
+  height: 100px;
+  border-radius: 6px;
+  overflow: hidden;
+  text-overflow: clip;
+  word-wrap: break-word;
+  display: inline;
+}
+
+.hang3 {
+  padding: 10px 10px;
+  display: flex;
+}
+.hang3 input {
+  width: 71%;
+  margin-left: 12%;
+  height: 40px;
+  border-radius: 6px;
+}
+.hinhanh {
+  width: 50%;
+}
+.ngaydi {
+  width: 50%;
+}
+
+.diemdi {
+  width: 50%;
+}
+
+.hang4 {
+  display: flex;
+  padding: 10px 10px;
+}
+.diemdi {
+  width: 50%;
+}
+.diemdi input {
+  width: 71%;
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 4%;
+}
+
+.diemden {
+  width: 50%;
+}
+.diemden input {
+  width: 71%;
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 9.5%;
+}
+
+.form button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 94, 31);
+    color: white;
+    font-size: medium;
+    margin-left: 81.75%;
+    margin-top: 10px;
+}
+
+.cover{
+    margin-left: 3%;
+}
+
+
+/* hiệu ứng */
+.form button:hover{
+    background-color: rgb(244, 91, 15);
+}
+
+.form input:hover {
+    border-color: black;
+  }
+  .form input:focus {
+    outline: none !important;
+    border: 2px solid rgb(150, 191, 233);
+  }

@@ -1,0 +1,47 @@
+.clearfix::after,
+.clearfix::before {
+  clear: both;
+}
+
+.wrapper {
+  width: 85%;
+  background-color: rgb(242, 247, 247);
+  position: relative;
+  float: right;
+  overflow-y: scroll;
+  height: 1000px;
+  padding: 0px 80px;
+}
+
+.content {
+  padding-top: 18px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.actions,
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-success {
+  background-color: rgb(0, 180, 0);
+  color: #fff;
+}
+
+.table,
+.th,
+.td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}

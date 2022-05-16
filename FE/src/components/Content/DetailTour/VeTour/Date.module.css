@@ -1,0 +1,18 @@
+.day{
+    width: 32px;
+     text-align: center;
+      font-size: 16px;
+      cursor:pointer;
+      color: black;
+}
+.ten{
+    font-size: 11px;
+     color: rgba(104,113,118,1.00);
+}
+.dayCN{
+    width: 32px;
+    text-align: center;
+     font-size: 16px;
+     cursor:pointer;
+     color: red;
+}

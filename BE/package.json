@@ -1,0 +1,40 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect --experimental-modules --es-module-specifier-resolution=node index.js",
+    "server": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vippire1533-ai/CNPMC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vippire1533-ai/CNPMC/issues"
+  },
+  "homepage": "https://github.com/vippire1533-ai/CNPMC#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "mssql": "^8.0.2",
+    "nodemon": "^2.0.15",
+    "openssl": "^2.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "msnodesqlv8": "^2.4.7"
+  }
+}

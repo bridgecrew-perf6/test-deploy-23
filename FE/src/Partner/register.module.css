@@ -1,0 +1,70 @@
+.nen {
+    width: 100%;
+    padding: 8% 0 0;
+    margin: auto;
+    height: 937px;
+    background-color: rgb(150, 191, 233);;
+    
+  }
+  
+  .form {
+    position: relative;
+    border-radius: 12px;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    border-radius: 12px;
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    .form button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: rgb(150, 191, 233);
+      width: 100%;
+      border: 0;
+     
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+    }
+  
+    .message {
+      margin: 15px 0 0;
+      color: #b3b3b3;
+      font-size: 12px;
+    }
+    .message a {
+      color: rgb(48, 147, 247);
+      text-decoration: none;
+    }
+    
+  
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+  
+    /* hiệu ứng */
+    .form button:hover,.form button:active,.form button:focus {
+      background: rgb(48, 147, 247);
+    }

@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+  background-color: white;
+  border-radius: 14px;
+  color: black;
+  width: 100%;
+  height: 45px;
+}
+
+.price {
+  font-size: 18px;
+  border-radius: 5px;
+  height: 100%;
+  width: 35%;
+  float: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.rate {
+  font-size: 18px;
+  border-radius: 5px;
+  height: 100%;
+  width: 35%;
+  float: right;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.tour {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  height: 150px;
+  margin-top: 2%;
+}
+.tour .left_image_tour {
+  float: left;
+  height: inherit;
+  width: 50%;
+}
+.left_image_tour img {
+  border-bottom-left-radius: 14px;
+  border-top-left-radius: 14px;
+  float: left;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+.tour .right_content_tour {
+  float: right;
+  width: 45%;
+  margin-left: 5%;
+}

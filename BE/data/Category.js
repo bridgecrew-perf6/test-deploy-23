@@ -1,0 +1,17 @@
+class listtour {
+  constructor(MATOUR,MALOAI,TENTOUR,GTTOUR,GIATOUR,NOIDUNGTOUR,HINHANH,NGAYDI,DIEMDI,DIEMDEN,NGAYTAO){
+    this.MATOUR=MATOUR;
+    this.MALOAI=MALOAI;
+    this.TENTOUR=TENTOUR;
+    this.GTTOUR=GTTOUR;
+    this.GIATOUR=GIATOUR;
+    this.NOIDUNGTOUR=NOIDUNGTOUR;
+    this.HINHANH=HINHANH;
+    this.NGAYDI=NGAYDI;
+    this.DIEMDI=DIEMDI;
+    this.DIEMDEN=DIEMDEN;
+    this.NGAYTAO=NGAYTAO;
+  }
+}
+
+export default listtour;

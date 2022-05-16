@@ -1,0 +1,56 @@
+.menuleft {
+  position: fixed;
+  width: 15%;
+  background-color: rgb(243, 246, 249);
+  overflow-y: scroll;
+  height: 1000px;
+}
+.menuleft::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(177, 177, 177);
+}
+.menuleft::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 36, 155);
+}
+
+.logo {
+  
+  background-color: rgb(150, 191, 233);
+  height: 70px;
+}
+.logo img {
+  width: 80%;
+  position: relative;
+  left: 20px;
+}
+
+.menu ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.menu li {
+  height: 50px;
+  line-height: 40px;
+  border-bottom: 2px solid #e8e8e8;
+  padding: 0 1em;
+}
+
+.menu li a {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  
+}
+
+/* hiệu ứng */
+
+.menu li:hover {
+  background-color: rgb(150, 191, 233);
+ 
+}
+
+

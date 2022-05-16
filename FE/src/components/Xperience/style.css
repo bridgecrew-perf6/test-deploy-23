@@ -1,0 +1,112 @@
+.xpe-wraper {
+    padding: 10px 0px;
+    height: calc(100% - 52px);
+    overflow: auto;
+}
+.xpe-near-time {
+    text-decoration: none;
+    color: #fff;
+}
+.xpe-near {
+    display: flex;
+    align-items: center;
+}
+._xpe-near-time {
+    background: rgb(192, 76, 54);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.xpe-input-search {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.xpe-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #acacaca2;
+    padding: 3px 30px;
+}
+.xpe-icon-search {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    transform: translateY(-50%);
+}
+.xpe-discover {
+    padding-top: 50px;
+}
+.xpe-title {
+    color: rgb(67, 67, 67);
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.xpe-des {
+    color: rgb(143, 143, 143);
+    margin-top: 12px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.xpe-service {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.xpe-btn-services {
+    background-color: rgba(247,249,250,1.00);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 109, 112);;
+}
+.xpe-btn-services.active {
+    background: rgb(255, 109, 112);
+    color: #fff;
+}
+.xpe-title-covid-services {
+    color: #000;
+    font-size: 14px;
+    white-space: pre-wrap;
+    margin: 0;
+    margin-bottom: 5px;
+} 
+.xpe-title-covid-services-price {
+    color: rgb(249, 109, 1);
+}
+.xpe-travel-vn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(1, 148, 243);
+    font-weight: bold;
+    font-size: 16px;
+}
+.exp-bottom {
+    width: 100%;
+    padding: 24px;
+    background-color: rgba(1,148,243,1.00);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp-bottom p {
+    width: 70%;
+    color: #fff;
+}
+.exp-bottom button {
+    border: none;
+    background-color: #fff;
+    color: rgba(1,148,243,1.00);
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+}

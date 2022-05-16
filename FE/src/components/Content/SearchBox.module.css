@@ -1,0 +1,43 @@
+.search {
+    position: relative;
+    margin: -40px 0px 0px 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    height: 85px;
+    border-radius: 6px;
+    width: 45%;
+    
+  }
+  .search input {
+    border: 5px;
+  }
+  .search button {
+    background-color: rgb(66, 162, 252);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    border-style: none;
+    width: 50%;
+    color: white;
+    font-weight: 800;
+  }
+  
+  .search button,
+  .search-logo {
+    margin: 0px 15px;
+    height: 50px;
+  }
+
+  .text{
+    height: 50px;
+    outline-style: solid ;
+    outline-width: 1px;
+    outline-color: rgb(156, 150, 144);
+    border-radius: 6px;
+    opacity: 0.5;
+    margin-left: 10px;
+  }

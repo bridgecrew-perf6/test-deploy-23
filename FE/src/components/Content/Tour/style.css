@@ -1,0 +1,32 @@
+.section-tour {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.tour-bikip {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tour-bikip img {
+    width: 100%;
+}
+.btn-location-x1 button {
+    padding: 8px 12px;
+    margin: 0px 10px 10px 0px;
+    border: 0px;
+    color: rgba(255,109,112,1.00);
+    background-color: rgba(247,249,250,1.00);
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn-location-x1 button.active {
+    background-color: rgba(255,109,112,1.00);
+    color: #fff;
+}
+.bikip .content_news_location img {
+    border-radius: 5%;
+}

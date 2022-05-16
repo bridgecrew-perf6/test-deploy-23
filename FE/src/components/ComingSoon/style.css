@@ -1,0 +1,8 @@
+.cms {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(0, 225, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

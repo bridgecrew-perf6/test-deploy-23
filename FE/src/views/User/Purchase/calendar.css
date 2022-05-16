@@ -1,0 +1,14 @@
+.wraper-calendar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.wraper-calendar.__left {
+    justify-content: flex-start;
+}
+.wraper-calendar.__right {
+    justify-content: flex-end;
+}
+.wraper-calendar .react-calendar {
+    width: 50%;
+}

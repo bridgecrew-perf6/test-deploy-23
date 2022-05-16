@@ -1,0 +1,44 @@
+.slick-prev, .slick-next {
+  
+  border-radius: 50%;
+}
+.content_news_location {
+  width: 90%!important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: 3%!important;
+  margin-right: 3%!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.content_news_location img {
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn-location {
+  margin: 10px;
+}
+.btn-location button {
+  background: #de8cc3;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.btn-location button:hover{
+  background-color: rgb(173, 240, 218);
+  color: rgb(52, 52, 53);
+}
+.content_news_location h5 {
+  height: 5px;
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 63px;
+  color: #fff;
+}
+.news-location {
+  margin-top: 2%;
+}

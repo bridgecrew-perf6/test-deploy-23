@@ -1,0 +1,50 @@
+.slick-prev, .slick-next {
+  border-radius: 50%;
+}
+#location {
+  height: 300px!important;
+}
+.content_cusine {
+  width: 90%!important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  margin-left: 3%!important;
+  margin-right: 3%!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.content_cusine img {
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn-location {
+  margin: 10px;
+}
+.btn-location button {
+  background: #de8cc3;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.btn-location button:hover{
+  color: rgb(52, 52, 53);
+}
+.content_cusine h5 {
+  height: 1px;
+}
+.content_cusine span {
+  height: 5px!important;
+}
+.content_cusine .price {
+  color: rgba(249,109,1,1.00)!important;
+}
+.news-location {
+  margin-top: 2%;
+}
+.page-cuisine {
+  margin-bottom: 3%!important;
+}

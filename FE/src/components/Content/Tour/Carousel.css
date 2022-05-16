@@ -1,0 +1,35 @@
+.slick-prev, .slick-next {
+  
+  border-radius: 50%;
+}
+.content{
+  display: flex!important;
+  /* margin-left: 20%; */
+}
+.Xperience {
+  height: 100px;
+  width: 150px;
+  margin-left: 15%;
+  text-align: center;
+  cursor: pointer;
+}
+.Xperience a {
+  text-decoration: none;
+}
+.Xperience-image {
+  margin: 0;
+}
+.Xperience-image img {
+  height: 100%;
+  width: 115px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+.Xperience h5 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+/* .slick-initialized .slick-slide {
+  width: 120px!important;
+} */

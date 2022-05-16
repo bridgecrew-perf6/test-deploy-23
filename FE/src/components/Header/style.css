@@ -1,0 +1,213 @@
+.hd-main {
+  position: sticky;
+  top: 0;
+  z-index: 791;
+  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+}
+.hd-wraper {
+  width: 100%;
+  padding: 5px 0px;
+  background: #fff;
+  height: 55px;
+}
+.hd-login {
+  position: relative;
+}
+.hd-menu {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hd-left, .hd-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.hd-right {
+  gap: 16px;
+}
+.hd-link-gr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.hd-icon-link {
+  width: 16px;
+  height: 16px;
+  aspect-ratio: auto 16 / 16;
+}
+.hd-icon-lang {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0264C8;
+}
+.hd-icon-user {
+  width: 22px;
+  height: 22px;
+}
+.hd-icon-link-cus {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  object-fit: none;
+  object-position: 50% 50%;
+}
+.hd-icon-link-cus.login {
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  background-color: rgba(205,208,209,1.00);
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  object-fit: fill;
+  object-position: 50% 50%;
+}
+.hd-link, .hd-currency, .hd-login, .hd-signup {
+  font-size: 14px;
+  text-align: left;
+  color: rgba(3,18,26,1.00);
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hd-signup {
+  background-color: rgb(1, 148, 243);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.hd-icon-ddl, .hd-icon-open-menu {
+  width: 12px;
+  height: 12px;
+  aspect-ratio: auto 12 / 12;
+  margin-left: 4px;
+  object-fit: fill;
+  object-position: 50% 50%
+}
+.hd-icon-open-menu {
+  width: 24px;
+  height: 24px;
+}
+.hd-login-sub {
+  height: auto;
+  background: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  /* padding: 0px 10px; */
+  box-sizing: border-box;
+  white-space: nowrap;
+  min-width: 270px;
+  width: 100%;
+}
+.hd-login {
+  padding: 10px;
+}
+.hd-login-sub p.hd-title-form {
+  white-space: nowrap;
+  margin: 0;
+  margin-bottom: 20px;
+  color: rgba(3,18,26,1.00);
+  font-size: 16px;
+  font-weight: 700;
+}
+.hd-login-sub a {
+  text-decoration: none;
+}
+.hd-login-sub .hd-text-input {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.hd-title-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hd-gr-input {
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+.hd-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(205, 208, 209);
+}
+.hd-gr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.hd-or-login {
+  background-color: rgb(242, 243, 243);
+  font-size: 12px;
+  text-align: center;
+}
+.hd-ques {
+  margin: 0;
+}
+.hd-register {
+  white-space: pre-wrap;
+  line-height: 23px;
+}
+.hd-btn-login {
+  background-color: rgb(255, 94, 31);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}
+.hd-btn-login-with {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hd-btn-login-with.login-facebook {
+  background-color: rgb(59, 89, 152);
+}
+.hd-btn-login-with.login-google {
+  background-color: rgb(66, 133, 244);
+}
+.hd-login-with {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 10px 10px;
+  align-items: center;
+  gap: 15px;
+}
+.login-with {
+  width: 15px;
+  height: 15px;
+}
+.hd-input-eye {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-60%);
+
+}
+@media screen and (max-width: 1200px) {
+  .hd-menu {
+    padding: 0px 20px;
+  }
+}
